@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 <div className='flex flex-col items-start gap-0'>
                  <p className='text-sm font-semibold leading-none'>{dayjs().format('h:mm A')}</p>
-                <p className='text-gray-950 leading-none'>{dayjs().format('ddd MMM')}</p>   
+                <p className='text-gray-950 leading-none'>{dayjs().format('dddd')}</p>   
                 </div>
                 
             </div>
